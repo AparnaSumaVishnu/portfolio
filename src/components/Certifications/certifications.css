@@ -1,0 +1,79 @@
+#certificates {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.certificatesTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.certificatesDesc {
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 45rem;
+    margin-bottom: 15px;
+
+}
+
+.certificatesImgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 2rem; /* Adjust this value for more or less space between boxes */
+    width: 100%;
+    max-width: 65rem;
+}
+.certificatesImgs2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 3rem; /* Adjust this value for more or less space between boxes */
+    width: 80%;
+    max-width: 65rem;
+}
+
+.certificateItem {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.certificatesImg {
+    height: 5rem;
+    width: 30%;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+}
+.certificateItem p {
+    margin-top: 10px;
+    color: black;
+    font-size: medium;
+}
+
+@media screen and (max-width: 585px) {
+    .certificatesImgs,
+    .certificatesImgs2 {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    }
+
+    .certificatesImg {
+        height: auto;
+        width: 100%;
+    }
+}

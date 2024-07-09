@@ -1,0 +1,29 @@
+#experience {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .experience-list {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .experience-item {
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .experience-item:nth-child(odd) {
+    border: 2px solid plum; /* Example border color for odd items */
+  }
+  
+  .experience-item:nth-child(even) {
+    border: 2px solid plum; /* Example border color for even items */
+  }
+  
